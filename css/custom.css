@@ -38,7 +38,7 @@ h6{
   color:white;
 }
 a{
-  text-decoration:none;
+  text-decoration:none !important;
   color:black;
 }
 a:hover{
@@ -83,6 +83,14 @@ ls{
   display:flex;
   background: #074E68;
   height: 100vh;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+}
+.hero3{
+  display:flex;
+  background: #074E68;
+  height: 500px;
   background-size:cover;
   justify-content: center;
   align-items: center;
@@ -174,18 +182,30 @@ ls{
     font-size: 1em;
 }
 .narrow{
-  padding: 0 80px;
-  align-items: center;
   text-align: center;
+  padding:0 20px;
+  font-size:1.2em !important;
+  font-weight:400 !important;
+}
+.contact{
+  text-align: center;
+  padding:0 5px;
+  font-size:1em !important;
+  font-weight:400 !important;
+  text-decoration:none;
+}
+.contact-head{
+  color:black !important;
 }
 .top-spacer{
   margin-top:50px;
 }
 .gap{
-  margin:50px 50px;
   border-top:.5px solid black;
-  display:flex;
   align-content: center;
+}
+.bottom-gap{
+  padding-bottom:40px;
 }
 .side-bar{
   border-left:.5px solid black;
@@ -194,8 +214,9 @@ ls{
   justify-content: flex-start;
   }
 }
-.b{
-  color:black;
+#contact p{
+  color:black !important;
+  font-size: 1.2em;
 }
 .footer{
   padding:15px 0;
@@ -242,9 +263,10 @@ ls{
   background-color: #59595A;
 }
 .promo{
-  color:white;
+  color:#E3E3E3;
   text-align: center;
   padding-top:20px;
+  font-size: 1em;
 }
 .fa{
   align-self: center;
@@ -297,6 +319,11 @@ ls{
   font-size: 1.4em;
   font-weight: 300;
 }
+.toosmart{
+  font-size: .8em;
+  text-align: center;
+  font-weight: 400;
+}
 .cert-container{
   display:flex;
 }
@@ -304,7 +331,10 @@ ls{
   border-top:solid 1px black;
   width:84%;
   margin:10px 8%;
-  margin-bottom:100px;
+  margin-bottom:20px;
+}
+.color{
+  background:#F7F7F7 !important;
 }
 .smartest{
   margin:50px 90px;
@@ -323,6 +353,9 @@ ls{
 .gap2{
   margin-top:30px;
 }
+.gap3{
+  margin-top:50px;
+}
 .fine{
   font-size: 1.6em;
   font-weight: 400;
@@ -337,16 +370,19 @@ ls{
   line-height: 2.5em;
 }
 .box{
-  background:black;
+  background: #074E68;
   height:200px;
   border-radius: 2%;
 }
 .light{
   color:white;
   text-align: center;
+  font-size:1.2em;
+  padding:0 20px;
 }
 .sized{
   font-size: 1.7em;
+  padding-top:10px;
 }
 .one-edge-shadow {
 	-webkit-box-shadow: 0 8px 6px -6px black;
@@ -389,9 +425,7 @@ ls{
     border-left:0px;
   }
   .gap{
-    flex-wrap: wrap;
-    margin-left:0px;
-    margin-right:0px;
+    border-top:.5px solid black;
   }
   .narrow{
     padding:10px;
