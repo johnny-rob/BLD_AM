@@ -101,15 +101,6 @@ ls{
 .services2{
   text-align: left;
 }
-.news{
-  height:150px;
-  width:100%;
-  background:#007FFF;
-}
-.news h4{
-  color: black;
-  padding-top:25px;
-}
 .fonting{
   font-size: 1.2em;
   font-weight: 200;
@@ -311,6 +302,30 @@ ls{
   justify-content: center;
   text-align: center;
 }
+.incnews{
+  height:auto;
+  padding:40px 0;
+  width:100%;
+  background:#F1F2F3;
+}
+.incnews p{
+  color: black;
+  margin:0;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top:10px;
+}
+.articles{
+  margin:40px 0 0 0;
+}
+.articles p{
+  font-weight:400;
+  text-align:left;
+  margin-top:2px;
+}
+.article-buttons p{
+  text-align: center;
+}
 
 /*Goverment Stuff*/
 .header{
@@ -398,7 +413,6 @@ ls{
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
 }
-
 
 @media screen and (max-width: 39.9375em) {
   .orbit-caption p {
